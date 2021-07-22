@@ -7,3 +7,7 @@ For example, if logAnalysis.txt is the filename and project's working directory 
     The filepath will be - C:\test\log_mapper\logAnalysis.txt
 
 JDK 11 and HSQLDB 2.6.0 is used
+
+**To run from cmd -**
+1. mvn compile
+2. mvn exec:java -Dexec.mainClass=com.test.creditSuisse.EventLogMapper -Dexec.args=<filePath>
