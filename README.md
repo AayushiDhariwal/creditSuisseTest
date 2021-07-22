@@ -10,4 +10,4 @@ JDK 11 and HSQLDB 2.6.0 is used
 
 **To run from cmd -**
 1. mvn compile
-2. mvn exec:java -Dexec.mainClass=com.test.creditSuisse.EventLogMapper -Dexec.args=<filePath>
+2. mvn exec:java -Dexec.mainClass=com.test.creditSuisse.EventLogMapper -Dexec.args=filePath.txt
