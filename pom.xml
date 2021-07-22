@@ -16,6 +16,11 @@
             <version>2.2.2</version>
             <scope>compile</scope>
         </dependency>
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.6.0</version>
+		</dependency>
     </dependencies>
 
     <build>
@@ -30,6 +35,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
